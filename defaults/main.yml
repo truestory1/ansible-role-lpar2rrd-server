@@ -1,5 +1,5 @@
 ---
-lpar2rrdserver_version: "7.80-1"
+lpar2rrdserver_version: "8.05"
 lpar2rrdserver_user: lpar2rrd
 lpar2rrdserver_group: lpar2rrd
 lpar2rrdserver_user_home: "/home/{{ lpar2rrdserver_user }}"
