@@ -1,0 +1,7 @@
+---
+- name: Prepare RH instances
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: RH - fix /etc/shadow permissions
+      ansible.builtin.raw: chmod 0400 /etc/shadow
